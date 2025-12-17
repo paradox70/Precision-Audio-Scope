@@ -6,6 +6,10 @@ A powerful, cross-platform real-time oscilloscope and digital frequency counter 
 
 Traditional software oscilloscopes often struggle with stability and precision at very low frequencies. This project was developed to provide a reliable, laboratory-grade tool for visualizing waveforms and measuring frequencies with professional accuracy using standard PC hardware.
 
+<p align="center">
+  <img src="Screenshot.PNG" width="600" title="Oscilloscope Preview">
+</p>
+
 ## How it works:
 
 You can connect an external signal source (like a **Signal Generator**) to your PC's **Microphone Input** using a standard AUX cable. The software captures the raw audio data and performs high-speed analysis to display the waveform and its exact frequency.
@@ -49,20 +53,27 @@ pip install numpy matplotlib pyaudio
 
 2. Run the application:
 
-3. python Precision_Audio_Scope.py
-
+```
+python Precision_Audio_Scope.py
+```
 
 ## Controls:
 
-**Left/Right Arrows:** Zoom Time (Change horizontal scale).
+- **Left/Right Arrows:** Zoom Time (Change horizontal scale).
 
-**Up/Down Arrows:** Zoom Voltage (Change vertical sensitivity).
+- **Up/Down Arrows:** Zoom Voltage (Change vertical sensitivity).
 
-**'T' Key:** Toggle Visual Trigger (Stabilize the waveform).
+- **'T' Key:** Toggle Visual Trigger (Stabilize the waveform).
 
 ## Safety Warning
 
 Ensure your input signal does not exceed **1.0V to 1.5V peak-to-peak**. Never connect a power amplifier output directly to your microphone jack.
+
+
+<p align="center">
+  <img src="Setup.jpg" width="600" title="Setup Preview">
+</p>
+
 
 ## License
 
